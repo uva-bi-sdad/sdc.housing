@@ -1,0 +1,75 @@
+{
+  "name": "sdc.housing_dev",
+  "measure_not_found": 0,
+  "count": 4,
+  "utc_audited": "2022-09-21 20:13:45",
+  "data": [
+    {
+      "name": "empty_file",
+      "path": "data/housing_rent/distribution/empty_file",
+      "md5": "68b329da9893e34099c7d8ad5cb9c940",
+      "size": 1
+    },
+    {
+      "name": "ncr_cttrbg_acs5_2009_2019_housing_access.csv",
+      "path": "data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv",
+      "md5": "356a05e860e4c3d1a37dfb98d42e15fd",
+      "size": 23840729,
+      "measure_info": [
+        {
+          "category": "Housing",
+          "full_name": "housing_access:median_gross_rent",
+          "measure": "gross_rent",
+          "type": "dollars",
+          "short_name": "Median Gross Rent",
+          "long_name": "Median gross rent in dollars",
+          "short_description": "Median gross rent in dollars. Based on ACS 5-year estimates.",
+          "long_description": "Median gross rent in dollars. Based on American Community Survey (ACS) 5-year estimates. Table B25064.",
+          "statement": "The median gross rent is {value} in {features.name}.",
+          "equity_category": "Status",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "measure_info.json",
+      "path": "data/housing_access/distribution/measure_info.json",
+      "md5": "f8a9ea30e914f96b257b6555e13e460c",
+      "size": 1545
+    },
+    {
+      "name": "ncr_cttrbg_acs5_2009_2019_housing_access.csv.xz",
+      "path": "data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv.xz",
+      "md5": "39a46ac8c15684cd31bb1382252958ca",
+      "size": 718656,
+      "measure_info": [
+        {
+          "category": "Housing",
+          "full_name": "housing_access:median_gross_rent",
+          "measure": "gross_rent",
+          "type": "dollars",
+          "short_name": "Median Gross Rent",
+          "long_name": "Median gross rent in dollars",
+          "short_description": "Median gross rent in dollars. Based on ACS 5-year estimates.",
+          "long_description": "Median gross rent in dollars. Based on American Community Survey (ACS) 5-year estimates. Table B25064.",
+          "statement": "The median gross rent is {value} in {features.name}.",
+          "equity_category": "Status",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_references": {}
+}
