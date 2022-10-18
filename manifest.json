@@ -5,7 +5,7 @@
     "/home/runner/work/sdc.housing_dev/sdc.housing_dev/data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv"
   ],
   "count": 4,
-  "utc_audited": "2022-10-13 00:49:18",
+  "utc_audited": "2022-10-18 22:50:31",
   "data": [
     {
       "name": "empty_file",
@@ -32,8 +32,5 @@
       "size": 23840729
     }
   ],
-  "measure_generated": [],
-  "no_match_in_measures_info": [],
-  "measures_found": [],
   "_references": {}
 }
