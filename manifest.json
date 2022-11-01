@@ -1,17 +1,23 @@
 {
   "name": "sdc.housing_dev",
   "measure_not_found": [
-    "/home/runner/work/sdc.housing_dev/sdc.housing_dev/data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv.xz",
-    "/home/runner/work/sdc.housing_dev/sdc.housing_dev/data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv"
+    "/home/runner/work/sdc.housing_dev/sdc.housing_dev/data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv",
+    "/home/runner/work/sdc.housing_dev/sdc.housing_dev/data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv.xz"
   ],
   "count": 4,
-  "utc_audited": "2022-10-18 22:50:31",
+  "utc_audited": "2022-11-01 14:01:23",
   "data": [
     {
       "name": "empty_file",
       "path": "data/housing_rent/distribution/empty_file",
       "md5": "68b329da9893e34099c7d8ad5cb9c940",
       "size": 1
+    },
+    {
+      "name": "ncr_cttrbg_acs5_2009_2019_housing_access.csv",
+      "path": "data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv",
+      "md5": "356a05e860e4c3d1a37dfb98d42e15fd",
+      "size": 23840729
     },
     {
       "name": "measure_info.json",
@@ -24,12 +30,6 @@
       "path": "data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv.xz",
       "md5": "39a46ac8c15684cd31bb1382252958ca",
       "size": 718656
-    },
-    {
-      "name": "ncr_cttrbg_acs5_2009_2019_housing_access.csv",
-      "path": "data/housing_access/distribution/ncr_cttrbg_acs5_2009_2019_housing_access.csv",
-      "md5": "356a05e860e4c3d1a37dfb98d42e15fd",
-      "size": 23840729
     }
   ],
   "_references": {}
