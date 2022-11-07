@@ -2,7 +2,7 @@
 Housing-related data and metrics for the Social Data Commons
 ## The housing folder is organized as follows:
 ### 1. Operations and Planning
-These are data and measures that help the decison-makers to observe the current state of the housing stock and plan housing development. Example of topics include:
+These are data and measures that help decison-makers to assess the current state of the housing stock and plan housing development and points of intervention. Example of topics include:
 - Rent Data
 - Vacant Addresses
 - Homelessness (incl. evictions)
