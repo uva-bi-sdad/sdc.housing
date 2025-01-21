@@ -148,7 +148,7 @@ ncr_dat <- dat_long %>%
 
 # save
 
-write_csv(ncr_dat, xzfile(paste0("Cost-burdened HHs/data/working/ncr_cttr_acs_", min(ncr_dat$year), "_", max(ncr_dat$year), "_cost_burdened_hhs.csv.xz"), compression = 9))
+write_csv(ncr_dat, xzfile(paste0("Cost-burdened HHs/data/working/ncr_cttr_acs_", min(years), "_", max(years), "_cost_burdened_hhs.csv.xz"), compression = 9))
 
 
 #
@@ -162,4 +162,4 @@ va_dat <- dat_long %>%
 
 # save
 
-write_csv(va_dat, xzfile(paste0("Cost-burdened HHs/data/working/va_hdcttr_acs_", min(ncr_dat$year), "_", max(ncr_dat$year), "_cost_burdened_hhs.csv.xz"), compression = 9))
+write_csv(va_dat, xzfile(paste0("Cost-burdened HHs/data/working/va_hdcttr_acs_", min(years), "_", max(years), "_cost_burdened_hhs.csv.xz"), compression = 9))
